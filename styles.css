@@ -253,10 +253,10 @@ footer { background: #0a1f15; padding: 40px 0; text-align: center; font-size: 14
 /* =========================
    RESPONSIVE
 ========================= */
-.desktop-only { display: inline-block; }
-.mobile-only { display: none; }
 
 @media (max-width: 900px) {
+  .desktop-only { display: none; }
+  .mobile-only { display: inline-block; }
   .menu-toggle { display: flex; }
   
   .nav-links {
