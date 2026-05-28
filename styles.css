@@ -116,11 +116,28 @@ h1, h2, h3, h4 {
 ========================= */
 .hero {
   height: 100vh;
+
   display: flex;
+
   align-items: center;
+
   text-align: center;
+
   position: relative;
-  background: radial-gradient(circle at center, #265e3c 0%, #071c12 100%);
+
+  background:
+    linear-gradient(
+      rgba(0,0,0,0.25),
+      rgba(0,0,0,0.25)
+    ),
+    url("images/HERObg.png");
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
   padding-top: 80px;
 }
 
